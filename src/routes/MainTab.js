@@ -21,29 +21,5 @@ export default () => (
                 tabBarIcon: () => (<Entypo name="home" size={22} color={"#000"} />),
             }}
         />
-        <Tab.Screen
-            name="Pedidos"
-            component={Home}
-            options={{
-                headerShown: false,
-                tabBarIcon: () => (<Entypo name="list" size={22} color={"#000"} />),
-            }}
-        />
-        <Tab.Screen
-            name="Carrinho"
-            component={Home}
-            options={{
-                headerShown: false,
-                tabBarIcon: () => (<FontAwesome name="cart-plus" size={24} color="black" />),
-            }}
-        />
-        <Tab.Screen
-            name="Perfil"
-            component={Home}
-            options={{
-                headerShown: false,
-                tabBarIcon: () => (<FontAwesome name="user" size={22} color={"#000"} />),
-            }}
-        />
     </Tab.Navigator>
 );
