@@ -17,3 +17,10 @@ Apos gerado seu link de API, inserir na seguinte linha de codigo em `Sua API KEY
 Apos feito o clone do repositorio execute o comando `npm install` ou `yarn install` para instalação das dependencias do projeto.
 
 Depois de configurado sua API apenas execute o projeto com `expo start`.
+
+## Exemplo de como ficaria no app.
+<p align="center">
+  <a href="#">
+    <img src="https://i.imgur.com/MzGqLpP.png" width="250">
+  </a>
+</p>

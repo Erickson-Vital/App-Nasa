@@ -9,6 +9,7 @@ const Stack = createStackNavigator();
 
 export default () => (
     <Stack.Navigator
+        initialRouteName='Home'
         screenOptions={{
             headerShown: false
         }}
@@ -17,6 +18,7 @@ export default () => (
             name="MainTab"
             component={MainTab}
         /> */}
+
         <Stack.Screen
             name="Home"
             component={Home}
